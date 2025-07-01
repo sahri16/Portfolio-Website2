@@ -26,9 +26,13 @@
             <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact-Me</a></li>
           </ul>
           <button class="nav__close" id="nav-close" aria-label="Close menu"><i class="uil uil-times"></i></button>
-        </div>
-        <div class="nav__btns">
-          <button class="change-theme" id="theme-button" aria-label="Toggle theme"><i class="uil uil-moon"></i></button>
+          <!-- Dark Mode Toggle Switch -->
+          <label class="ui-switch" aria-label="Toggle dark mode">
+            <input type="checkbox" id="darkmode-toggle" aria-checked="false">
+            <div class="slider">
+              <div class="circle"></div>
+            </div>
+          </label>
         </div>
       </nav>
     </header>
@@ -48,7 +52,7 @@
                 </mask>
                 <g mask="url(#mask0)">
                   <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                  <image class="home__blob-img" x="-79" y="-46" xlink:href="assets/img/Pro.jpg" />
+                  <image class="home__blob-img"  xlink:href="assets/img/profile.jpeg" />
                 </g>
               </svg>
             </div>
@@ -75,14 +79,34 @@
         <div class="about__container container grid">
           <img src="assets/img/about.jpg" alt="About Image" class="about__img" />
           <div class="about__data">
-            <p class="about__description">I'm a third-year ISE undergraduate, passionate about technology and an avid reader. I have a self-motivated and can-do attitude, thriving in challenging and dynamic environments. Seeking a competitive position to enhance my skills and contribute to a professional organization. I'm very much passionate to learn new stuff that interests me and can help me to get better.</p>
+            <p class="about__description"> Front-End Developer with expertise in
+              React.js/Angular.js and a strong focus on UI/UX. Skilled
+              in building clean, user-friendly web applications.</p>
             <div class="about__info">
-              <div><span class="about__info-title">08.30+</span><span class="about__info-name">Aggregate <br />CGPA</span></div>
-              <div><span class="about__info-title">04+</span><span class="about__info-name">Projects</span></div>
-              <div><span class="about__info-title">01+</span><span class="about__info-name">Months <br />experience</span></div>
+              <div><span class="about__info-title">2.99+</span><span class="about__info-name">Aggregate <br />CGPA</span></div>
+              <div><span class="about__info-title">10+</span><span class="about__info-name">Projects</span></div>
+              <div><span class="about__info-title">06+</span><span class="about__info-name">Months <br />experience</span></div>
             </div>
             <div class="about__buttons">
-              <a download href="assets/Sahrish Anfal FED1.pdf" class="button button--flex">Download CV<i class="fas fa-download button__icon"></i></a>
+              <a href="assets/Sahrish Anfal FED1.pdf" download class="download-button">
+                <div class="docs">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                  View CV
+                </div>
+                <div class="download">
+                  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -110,14 +134,14 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
+                    <h3 class="skills__name">React.js</h3>
                   </div>
                   
                 </div>
                 
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Java</h3>
+                      <h3 class="skills__name">Angular.js</h3>
                     </div>
                     
                   </div>
@@ -149,7 +173,7 @@
                 <i class="fas fa-code skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">IT Constructs</h1>
+                  <h1 class="skills__title">Other Skills</h1>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -158,19 +182,19 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">DBMS</h3>
+                    <h3 class="skills__name">Adobe Illustrator</h3>
                   </div>
                   
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">DS & Algorithms</h3>
+                    <h3 class="skills__name">Figma</h3>
                   </div>
                   
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">OOP</h3>
+                    <h3 class="skills__name">Project Management</h3>
                   </div>
                   
                 </div>
@@ -279,9 +303,9 @@
               <!--====== Qualification 1 ======-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">SSLC</h3>
+                  <h3 class="qualification__title">Matriculation</h3>
                   <span class="qualification__subtitle"
-                    >S.V.S <br />High School</span
+                    >Bio Science <br />High School</span
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
@@ -305,8 +329,8 @@
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
                           <p>
-                            Subjects studied: Science, Maths, English,
-                            Social Studies,Kannada,Hindi.
+                            Subjects studied: Bio-Science, Maths, Physics,
+                            Chemistry, English.
                           </p>
                         </li>
                         <li class="services__modal-service">
@@ -319,7 +343,7 @@
                           <i
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
-                          <p>Came runners up in inter-school Ball Badminton</p>
+                          <!-- <p>Came runners up in inter-school Ball Badminton</p> -->
                         </li>
                       </ul>
                     </div>
@@ -341,9 +365,9 @@
                   <span class="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 class="qualification__title">Class 12th</h3>
+                  <h3 class="qualification__title">Intermediate</h3>
                   <span class="qualification__subtitle"
-                    >Vidyodaya <br />Pre University College</span
+                    >ICS <br />PIASS College Kasur, Pakistan</span
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
@@ -367,15 +391,15 @@
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
                           <p>
-                            Subjects studied: Physics, Chemistry, Maths,
-                            English, Statistics , Hindi.
+                            Subjects studied: Computer Science, Statistics, Maths,
+                            English.
                           </p>
                         </li>
                         <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
-                          <p>Scored 87.5%</p>
+                          <p>Scored 84.5%</p>
                         </li>
                       </ul>
                     </div>
@@ -386,9 +410,9 @@
               <!--====== Qualification 3 ======-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">College</h3>
+                  <h3 class="qualification__title">BS in Information Technology</h3>
                   <span class="qualification__subtitle"
-                    >Canara Enginnering College, Manglore</span
+                    >University of Education, Lahore</span
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
@@ -402,7 +426,7 @@
                   </span>
                   <div class="services__modal">
                     <div class="services__modal-content">
-                      <h4 class="services__modal-title">College Summary :</h4>
+                      <h4 class="services__modal-title">University Summary :</h4>
                       <i class="uil uil-times services__modal-close"></i>
                       <ul class="services__modal-services grid">
                         <li class="services__modal-service">
@@ -419,9 +443,9 @@
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
-                          <p>Scored an aggregate of 8.50 CGPA till now.</p>
+                          <p>Scored an aggregate of 2.99 CGPA till now.</p>
                         </li>
-                        <li class="services__modal-service">
+                        <!-- <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
@@ -461,7 +485,7 @@
                           <p>
                             Finalist in Dark Pattern Buster Hackathon conducted by Department of Consumer Affairs of India.
                           </p>
-                        </li>
+                        </li> -->
                         
                       </ul>
                     </div>
@@ -487,24 +511,24 @@
           <div class="swiper-wrapper">
             <!-- ------------------------portfollio 1-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio5.png" class="portfolio__img" />
+              <img src="assets/img/Tech Company.png" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
-                  DarkSurfer-Extension
+                  Neuro Sule Tech Company
                 </h3>
                 <p class="portfolio__description">
-                  DarkSurfer-Extension, is a project based on the application of advanced Language Models LMs to detect and eliminate dark patterns on websites. It aims to improve user-awareness, exposing real-time of devious design practices in situ. It helps make the internet more user-friendly by using its novel LMs and popular LM-based models, such as RoBERTa, BERT, and XLNet.
+                  Neuro Sule Tech Company is a tech company that provides services to the clients.it is a website that is built using React.js, CSS, and JavaScript. 
                 </p>
                 <a
-                  href="https://github.com/Venkateeshh/DarkSurfer-Extension"
+                  href="https://github.com/sahri16/Neuro-Sule-Tech"
                   class="button button--flex button--small portfolio__button"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
                 <a
-                  href="https://darksurfer.streamlit.app/"
+                  href="https://neuro-sule-tech.vercel.app/"
                   class="button button--flex button--small portfolio__button"
                 >
                   See Live
@@ -515,29 +539,24 @@
             <!-- ------------------------portfollio 2-------------------- -->
 
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
+              <img src="assets/img/Baker site.png" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
-                  Responsive-Weather-Forecast-Website
+                  Borcelle-Cakebake Website
                 </h3>
                 <p class="portfolio__description">
-                  This project is a weather website that provides live weather
-                  updates and forecasts based on your location. Stay informed
-                  about current weather conditions, temperature, and more.
-                  Explore interactive maps, hourly/daily forecasts, and helpful
-                  insights. Stay ahead of the forecast and make the most of your
-                  day!
+               This is a website for a bakery shop that provides a platform for the clients to order cakes and other bakery products.
                 </p>
                 <a
-                  href="https://github.com/Venkateeshh/Weather-App"
+                  href="https://github.com/sahri16/Borcelle-Cakebake"
                   class="button button--flex button--small portfolio__button"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
                 <a
-                  href="https://venkateeshh.github.io/Weather-App/"
+                  href="https://sahri16.github.io/Borcelle-Cakebake/"
                   class="button button--flex button--small portfolio__button"
                 >
                   See Live
@@ -548,26 +567,22 @@
 
             <!-- ------------------------portfollio 3-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
+              <img src="assets/img/portfoilo 1.png" class="portfolio__img" />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Spotify-Clone</h3>
+                <h3 class="portfolio__title">Portfoilo Website</h3>
                 <p class="portfolio__description">
-                  Spotify Clone is a web app developed using HTML, CSS, and
-                  JavaScript. It recreates Spotify's interface and features,
-                  allowing users to browse, search, and play songs, create
-                  playlists, and discover new music. Responsive design ensures a
-                  seamless experience on any device. Contributions are welcome!
+               This is my personal portfolio website that is built using HTML, CSS, and JavaScript. The design is inspired by the website of a tech company its morden website design.
                 </p>
                 <a
-                  href="https://github.com/Venkateeshh/Spotify-Clone"
+                  href="https://github.com/sahri16/sahrish-anfal-portfolio"
                   class="button button--flex button--small portfolio__button"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
                 <a
-                  href="https://venkateeshh.github.io/Spotify-Clone/"
+                  href="https://sahri16.github.io/sahrish-anfal-portfolio/index.html"
                   class="button button--flex button--small portfolio__button"
                 >
                   See Live
@@ -576,7 +591,7 @@
               </div>
             </div>
             <!-- ------------------------portfollio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+            <!-- <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio3.png" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -603,10 +618,10 @@
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
               </div>
-            </div>
+            </div> -->
 
             <!-- ------------------------portfollio 5-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+            <!-- <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio4.png" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -634,7 +649,7 @@
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <!-- add arrows -->
@@ -662,7 +677,7 @@
               <div>
                 <h3 class="contact__title">Contact Me</h3>
                 <span class="contact__subtitle"
-                  ><a href="tel:6362243314"></a>6362243314</span
+                  ><a href="tel:03074177403"></a>03074177403</span
                 >
               </div>
             </div>
@@ -673,7 +688,7 @@
               <div>
                 <h3 class="contact__title">Email</h3>
                 <span class="contact__subtitle"
-                  >rkamathSahrish Anfal@gmail.com</span
+                  >sahrishanfal@gmail.com</span
                 >
               </div>
             </div>
@@ -684,7 +699,7 @@
               <div>
                 <h3 class="contact__title">Location</h3>
                 <span class="contact__subtitle"
-                  >Manglore, Karnataka, India</span
+                  >Kasur, Pakistan</span
                 >
               </div>
             </div>
@@ -730,47 +745,28 @@
 
     <!--================== Footer ===============-->
     <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
+      <div class="footer__bg modern-footer-bg">
+        <div class="footer__container container modern-footer">
+          <div class="footer__brand">
             <h1 class="footer__title">Sahrish Anfal</h1>
-            <span class="footer__subtitle"
-              >Information Science Engineering Student</span
-            >
+            <span class="footer__subtitle">Information Technology Student</span>
           </div>
-
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
+          <ul class="footer__links modern-footer__links">
+            <li><a href="#qualification" class="footer__link">Qualification</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#contact" class="footer__link">Contact-Me</a></li>
           </ul>
-
-          <div class="footer__socials">
-            <a
-              href="https://www.instagram.com/venkateeshh/"
-              class="footer__social"
-              target="__blank"
-            >
-            <i class="fa-brands fa-instagram"></i>
+          <div class="footer__socials modern-footer__socials">
+            <a href="https://www.instagram.com/venkateeshh/" class="footer__social" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
             </a>
-
-            <a
-              href="https://twitter.com/Venkateeshhh"
-              target="__blank"
-              class="footer__social"
-            >
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href="https://twitter.com/Venkateeshhh" class="footer__social" target="_blank" aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
             </a>
           </div>
         </div>
-
-        <p class="footer__copy">&#169; Sahrish Anfal. All right reserved</p>
+        <div class="modern-footer__divider"></div>
+        <p class="footer__copy modern-footer__copy">&#169; Sahrish Anfal. All rights reserved</p>
       </div>
     </footer>
 

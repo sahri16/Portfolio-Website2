@@ -143,37 +143,39 @@ function scrollUp() {
 window.addEventListener("scroll", scrollUp);
 
 /*==================== DARK LIGHT THEME ====================*/
-const themeButton = document.getElementById("theme-button");
+const darkModeToggle = document.getElementById("darkmode-toggle");
 const darkTheme = "dark-theme";
-const iconTheme = "uil-sun";
 
-// Previously selected topic (if user selected)
+// Previously selected theme (if user selected)
 const selectedTheme = localStorage.getItem("selected-theme");
-const selectedIcon = localStorage.getItem("selected-icon");
 
-// We obtain the current theme that the interface has by validating the dark-theme class
-const getCurrentTheme = () =>
-  document.body.classList.contains(darkTheme) ? "dark" : "light";
-const getCurrentIcon = () =>
-  themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
-
-// We validate if the user previously chose a topic
+// Set initial state of toggle and theme
 if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-    darkTheme,
-  );
-  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
-    iconTheme,
-  );
+  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
+  if (darkModeToggle) darkModeToggle.checked = selectedTheme === "dark";
+} else {
+  if (darkModeToggle) darkModeToggle.checked = document.body.classList.contains(darkTheme);
 }
 
-// Activate / deactivate the theme manually with the button
-themeButton.addEventListener("click", () => {
-  // Add or remove the dark / icon theme
-  document.body.classList.toggle(darkTheme);
-  themeButton.classList.toggle(iconTheme);
-  // We save the theme and the current icon that the user chose
-  localStorage.setItem("selected-theme", getCurrentTheme());
-  localStorage.setItem("selected-icon", getCurrentIcon());
+// Toggle dark mode on switch change
+if (darkModeToggle) {
+  darkModeToggle.addEventListener("change", function () {
+    document.body.classList.toggle(darkTheme);
+    localStorage.setItem("selected-theme", document.body.classList.contains(darkTheme) ? "dark" : "light");
+  });
+}
+
+// Download CV button functionality (Uiverse.io style)
+document.addEventListener('DOMContentLoaded', function() {
+  var cvBtn = document.getElementById('cv-download-btn');
+  if (cvBtn) {
+    cvBtn.addEventListener('click', function() {
+      const link = document.createElement('a');
+      link.href = 'assets/Sahrish Anfal FED1.pdf';
+      link.download = 'Sahrish_Anfal_CV.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+  }
 });
