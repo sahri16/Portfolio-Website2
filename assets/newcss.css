@@ -376,6 +376,7 @@ ui-switch {
 }
 
 .home__social-icon {
+  background: var(--Subcontainer-color);
   font-size: 1.05rem;
   color: var(--first-color);
   border-radius: 50%;
