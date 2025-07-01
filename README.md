@@ -39,10 +39,13 @@ This portfolio is developed using **HTML**, **CSS**, and **JavaScript** to deliv
 
 ---
 
-## 🚀 Getting Started
+## 🤝 Contributing
+I welcome feedback and contributions to improve this portfolio.
+Feel free to fork this repo, open issues, or submit pull requests!
 
-To run this website locally:
+## 📬 Contact
+Have questions or want to collaborate?
 
-```bash
-git clone https://github.com/sahri16/Portfolio-Website2.git
-cd Portfolio-Website2
+- 📧 Email: [sahrishanfal@gmail.com]
+- 🌐 Portfolio: [Your Live Portfolio URL]
+- 🔗 LinkedIn: [[your-linkedin-profile](https://www.linkedin.com/in/sahrish-anfal/)]
