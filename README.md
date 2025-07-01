@@ -1,5 +1,8 @@
 # 💼 Personal Portfolio Website
 
+![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)
+
+
 Welcome to my Personal Portfolio Website repository! This site is designed to showcase who I am as a web developer — highlighting my skills, projects, education, and how you can connect with me.
 
 ## 📌 Overview
@@ -50,5 +53,3 @@ Ways to get in touch via:
 
 If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
 
-Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)
