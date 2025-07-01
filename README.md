@@ -2,23 +2,49 @@
 
 Welcome to my Personal Portfolio Website repository! This site is designed to showcase who I am as a web developer — highlighting my skills, projects, education, and how you can connect with me.
 
-## Description
+## 📌 Overview
 
-The personal portfolio website showcases my skills, projects, and experiences as a web developer. It serves as an online platform to highlight my work and provide information about my background and expertise.
+This portfolio is built using HTML, CSS, and JavaScript to offer a clean, responsive, and visually appealing platform. It acts as my digital resume and project showcase.
 
-## Features
+## ✨ Features
 
-- Home: Introduces myself and provides a brief overview of my skills and interests.
-- About: Details my professional background, education, and relevant experience.
-- Projects: Showcases the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
-- Skills: Lists the programming languages, frameworks, and tools I am proficient in.
-- Contact: Offers various ways to get in touch with me, such as through email, social media, or a contact form.
+🔹 Home
+A welcoming introduction with a summary of my expertise and interests.
 
-## Technologies Used
+🔹 About
+Detailed background including education, experience, and goals.
 
-- HTML: Markup language used for structuring the website.
-- CSS: Stylesheet language used for designing and formatting the website.
-- JavaScript: Programming language used for adding interactivity and dynamic features.
+🔹 Projects
+Interactive project section with:
+
+Screenshots
+
+Descriptions
+
+Live demo links
+
+GitHub repository links
+
+🔹 Skills
+A categorized list of technologies and tools I’m proficient in.
+
+🔹 Contact
+Ways to get in touch via:
+
+Email
+
+Social links
+
+Integrated contact form
+
+## 🛠️ Technologies Used
+
+| Tech         | Purpose                            |
+| ------------ | ---------------------------------- |
+| `HTML5`      | Structure and layout               |
+| `CSS3`       | Styling and visual design          |
+| `JavaScript` | Interactivity and dynamic behavior |
+
 
 ## Getting Started
 
