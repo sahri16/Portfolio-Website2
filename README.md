@@ -47,5 +47,5 @@ Feel free to fork this repo, open issues, or submit pull requests!
 Have questions or want to collaborate?
 
 - 📧 Email: [sahrishanfal@gmail.com]
-- 🌐 Portfolio: [Your Live Portfolio URL]
-- 🔗 LinkedIn: [[your-linkedin-profile](https://www.linkedin.com/in/sahrish-anfal/)]
+- 🌐 Portfolio: [[My Portfolio Site](https://sahri16.github.io/sahrish-anfal-portfolio/contect.html)]
+- 🔗 LinkedIn: [[SAhrish-Anfal](https://www.linkedin.com/in/sahrish-anfal/)]
