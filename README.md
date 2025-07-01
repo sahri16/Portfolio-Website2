@@ -51,4 +51,4 @@ Ways to get in touch via:
 If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
 
 Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)
+[![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)](https://github.com/sahri16/Portfolio-Website2/blob/main/assets/img/portfolio-site-2.png)
