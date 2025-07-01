@@ -1,54 +1,50 @@
 # 💼 Personal Portfolio Website
 
-Welcome to my Personal Portfolio Website repository! This site is designed to showcase who I am as a web developer — highlighting my skills, projects, education, and how you can connect with me.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png" alt="Portfolio Screenshot" width="700"/>
+</p>
+
+Welcome to my **Personal Portfolio Website** repository! This website is a reflection of my journey as a web developer — highlighting my skills, projects, education, and ways to connect with me.
+
+---
 
 ## 📌 Overview
 
-This portfolio is built using HTML, CSS, and JavaScript to offer a clean, responsive, and visually appealing platform. It acts as my digital resume and project showcase.
+This portfolio is developed using **HTML**, **CSS**, and **JavaScript** to deliver a responsive, clean, and user-friendly interface. It serves as a digital resume and interactive showcase of my work.
+
+---
 
 ## ✨ Features
 
-🔹 Home
-A welcoming introduction with a summary of my expertise and interests.
+- **Home**: A welcoming introduction along with a brief about me.
+- **About**: My educational background, experience, and professional journey.
+- **Projects**: Detailed project cards with:
+  - Screenshots  
+  - Descriptions  
+  - Live demo links  
+  - GitHub repository links  
+- **Skills**: A list of technologies, frameworks, and tools I'm proficient in.
+- **Contact**: Multiple ways to reach out via:
+  - Email  
+  - Social links  
+  - Contact form  
 
-🔹 About
-Detailed background including education, experience, and goals.
-
-🔹 Projects
-Interactive project section with:
-
--Screenshots
-
--Descriptions
-
--Live demo links
-
--GitHub repository links
-
-🔹 Skills
-A categorized list of technologies and tools I’m proficient in.
-
-🔹 Contact
-Ways to get in touch via:
-
--Email
-
--Social links
-
--Integrated contact form
+---
 
 ## 🛠️ Technologies Used
 
-| Tech         | Purpose                            |
-| ------------ | ---------------------------------- |
+| Technology   | Purpose                            |
+|--------------|------------------------------------|
 | `HTML5`      | Structure and layout               |
-| `CSS3`       | Styling and visual design          |
+| `CSS3`       | Styling and visual appearance      |
 | `JavaScript` | Interactivity and dynamic behavior |
 
+---
 
-## Contact
+## 🚀 Getting Started
 
-If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
+To run this website locally:
 
-Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-[![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)](https://github.com/sahri16/Portfolio-Website2/blob/main/assets/img/portfolio-site-2.png)
+```bash
+git clone https://github.com/sahri16/Portfolio-Website2.git
+cd Portfolio-Website2
