@@ -17,13 +17,13 @@ Detailed background including education, experience, and goals.
 🔹 Projects
 Interactive project section with:
 
-Screenshots
+-Screenshots
 
-Descriptions
+-Descriptions
 
-Live demo links
+-Live demo links
 
-GitHub repository links
+-GitHub repository links
 
 🔹 Skills
 A categorized list of technologies and tools I’m proficient in.
@@ -31,11 +31,11 @@ A categorized list of technologies and tools I’m proficient in.
 🔹 Contact
 Ways to get in touch via:
 
-Email
+-Email
 
-Social links
+-Social links
 
-Integrated contact form
+-Integrated contact form
 
 ## 🛠️ Technologies Used
 
@@ -63,4 +63,5 @@ I appreciate any suggestions, feedback, or contributions to enhance this persona
 If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
 
 Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-![Portfolio](https://github.com/sahri16/Portfolio-Website2/assets/img/portfolio-site-2.png)
+![Portfolio](https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png)
+
