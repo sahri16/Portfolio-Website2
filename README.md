@@ -1,7 +1,7 @@
 # 💼 Personal Portfolio Website
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png" alt="Portfolio Screenshot" width="700"/>
+  <img src="[https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png" alt="Portfolio Screenshot](https://github.com/sahri16/Portfolio-Website2/blob/b6ff4bd9c5b8b56aa9fda359c9d34be5083fb1f5/assets/img/Screenshot%202025-07-01%20133538.png)" width="700"/>
 </p>
 
 Welcome to my **Personal Portfolio Website** repository! This website is a reflection of my journey as a web developer — highlighting my skills, projects, education, and ways to connect with me.
