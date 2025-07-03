@@ -1765,3 +1765,9 @@ a, button, .button, .nav__link, .home__social-icon {
   margin-bottom: 0;
 }
 
+.contact, .skills__container{
+  text-align: left;
+}
+.con-btn{
+  text-align: center;
+}
