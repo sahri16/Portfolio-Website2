@@ -5,10 +5,6 @@
 
 Welcome to my Personal Portfolio Website repository! This site is designed to showcase who I am as a web developer — highlighting my skills, projects, education, and how you can connect with me.
 =======
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sahri16/Portfolio-Website2/main/assets/img/portfolio-site-2.png" alt="Portfolio Screenshot" width="700"/>
-</p>
-=======
 
 Welcome to my **Personal Portfolio Website** repository! This website is a reflection of my journey as a web developer — highlighting my skills, projects, education, and ways to connect with me.
 
@@ -51,14 +47,13 @@ Feel free to fork this repo, open issues, or submit pull requests!
 
 ## 📬 Contact
 Have questions or want to collaborate?
-
+- 📧 Email: [sahrishanfal@gmail.com]
+- 🌐 Portfolio: [[My Portfolio Site](https://sahri16.github.io/sahrish-anfal-portfolio/contect.html)]
+- 🔗 LinkedIn: [[SAhrish-Anfal](https://www.linkedin.com/in/sahrish-anfal/)]
 =======
 ```bash
 git clone https://github.com/sahri16/Portfolio-Website2.git
 cd Portfolio-Website2
 
-=======
-- 📧 Email: [sahrishanfal@gmail.com]
-- 🌐 Portfolio: [[My Portfolio Site](https://sahri16.github.io/sahrish-anfal-portfolio/contect.html)]
-- 🔗 LinkedIn: [[SAhrish-Anfal](https://www.linkedin.com/in/sahrish-anfal/)]
+
 
