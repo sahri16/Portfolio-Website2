@@ -49,8 +49,10 @@ Feel free to fork this repo, open issues, or submit pull requests!
 Have questions or want to collaborate?
 - 📧 Email: [sahrishanfal@gmail.com]
 - 🌐 Portfolio: [[My Portfolio Site](https://sahri16.github.io/sahrish-anfal-portfolio/contect.html)]
-- 🔗 LinkedIn: [[SAhrish-Anfal](https://www.linkedin.com/in/sahrish-anfal/)]
-=======
+- 🔗 LinkedIn: [[Sahrish-Anfal](https://www.linkedin.com/in/sahrish-anfal/)]
+
+
+
 ```bash
 git clone https://github.com/sahri16/Portfolio-Website2.git
 cd Portfolio-Website2
